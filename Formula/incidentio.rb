@@ -1,27 +1,27 @@
 class Incidentio < Formula
   desc "CLI for the incident.io API (Bearer auth, OpenAPI-generated commands)"
   homepage "https://github.com/paymog/incidentio-cli"
-  version "0.2.1"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/paymog/incidentio-cli/releases/download/v0.2.1/incidentio-darwin-arm64"
-      sha256 "6d30b67eb7c7df937127127350a62a79f1bab1470d5aca877f2cc94810e1246b"
+      url "https://github.com/paymog/incidentio-cli/releases/download/v0.3.0/incidentio-darwin-arm64"
+      sha256 "989cacf18f33abf23eb5d1a2af56259c809568ccc9fa19d1877efb26715e4a37"
     end
     on_intel do
-      url "https://github.com/paymog/incidentio-cli/releases/download/v0.2.1/incidentio-darwin-x64"
-      sha256 "52747a5d119c40ca8c2357b531863894c817766ad9be2700caee24659171ab02"
+      url "https://github.com/paymog/incidentio-cli/releases/download/v0.3.0/incidentio-darwin-x64"
+      sha256 "4a9250655353722fd788deb017c43f8dc84c2d1b6d2c613923d3af08b4435fd8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/paymog/incidentio-cli/releases/download/v0.2.1/incidentio-linux-arm64"
-      sha256 "48007a4c4be00e5b97848cef651b228e5f27a4377cc8185a5b1330fd60f866c0"
+      url "https://github.com/paymog/incidentio-cli/releases/download/v0.3.0/incidentio-linux-arm64"
+      sha256 "a94adc8c24c4d2cd30e885868cb62f74e63ec1b16f375543267359bba9ba524d"
     end
     on_intel do
-      url "https://github.com/paymog/incidentio-cli/releases/download/v0.2.1/incidentio-linux-x64"
-      sha256 "321c38248d44e56232814760ec0c948e82d2a180cb7fbc6f58a22ec1b1d69989"
+      url "https://github.com/paymog/incidentio-cli/releases/download/v0.3.0/incidentio-linux-x64"
+      sha256 "381e5a0d76823dcf1a34f67d51a3cbd7e0f9b477628e042da85cec17289acb47"
     end
   end
 
