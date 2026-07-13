@@ -2,9 +2,9 @@ class Groundcover < Formula
   desc "CLI with SDK-backed writes and raw webapp endpoint passthrough"
   homepage "https://github.com/paymog/groundcover-cli"
   url "https://github.com/paymog/groundcover-cli.git",
-      tag:      "v0.2.0",
-      revision: "d5a2516988f4a39228e4ea366193d1b8b43fbdd0"
-  version "0.2.0"
+      tag:      "v0.3.0",
+      revision: "63569f7d52ed6a9281e176ce52eae4a7f72ce88a"
+  version "0.3.0"
 
   depends_on "go" => :build
 
