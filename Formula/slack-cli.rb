@@ -2,9 +2,9 @@ class SlackCli < Formula
   desc "Slack workspace tools as a CLI (no daemon, no MCP server process)"
   homepage "https://github.com/paymog/slack-cli"
   url "https://github.com/paymog/slack-cli.git",
-      tag:      "v0.3.6",
-      revision: "6a020317103096d98932cf7a717f82961fb689ee"
-  version "0.3.6"
+      tag:      "v0.3.7",
+      revision: "b554e3ec8fbd5cc4d7a4221e803ebee63ad8169f"
+  version "0.3.7"
 
   depends_on "go" => :build
 
